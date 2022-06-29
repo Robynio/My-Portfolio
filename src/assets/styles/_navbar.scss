@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+.nav {
+    //position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 70px;
+    //display: flex;
+    justify-content: center;
+    padding: 0.7rem;
+    background-color: #bcf17c;
+    background: linear-gradient(
+        200deg,
+        rgb(1, 21, 63) 0%,
+        rgb(190, 40, 224) 37%,
+        rgb(255, 217, 20) 80%
+      ),
+      linear-gradient(
+        65deg,
+        rgb(246, 202, 6) 100%, 
+        rgb(209, 93, 16) 57%,
+        rgb(204, 0, 255) 75%
+      );
+    align-items: center;
+    z-index: 1000;
+    ul {
+      padding: 0px;
+    }
+  }
+
+  
+  .nav-list {
+    font-family: 'Caveat', cursive;
+    list-style: none;
+    width: 80%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+  }
+
+  #logo{
+    width: 50px;
+  }
+  
+  #nav-title-name {
+    color: black;
+    font-weight: 800;
+    @media(max-width: 576px){
+      font-size: 1.2rem;
+    }
+  }
+
+  #nav-title {
+    color: white;
+    font-size: 2.9rem;
+    line-height: 1;
+}
+  
+
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,22 @@
+$backgroundPic: "../../assets/images/starSky.jpg";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+.bigfoot {
+  
+  bottom: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 2.2rem;
+  background-image: url($backgroundPic);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,9 @@
+$herobackgroundpic: "../images/coding-background.jpg";
+
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: url($herobackgroundpic);
+    background-position: center;
+    background-size: 60%;
+}

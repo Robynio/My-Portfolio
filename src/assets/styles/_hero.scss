@@ -1,0 +1,62 @@
+
+.container-1{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.container{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(13, 13, 14);
+    background-color: rgb(255, 255, 255, 0.75);
+    
+}
+
+@mixin icon-animation ($animation, $delay) {
+        animation: bounce 6s ease infinite;
+        animation-delay: $delay;
+
+        @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-25px);}
+        60% {transform: translateY(-5px);}
+    }    
+}
+
+.icon1 {
+    @include icon-animation (bounce, random(10) + s)
+}
+ 
+.icon2 {
+    @include icon-animation (bounce, random(10) + s)
+  }
+
+.icon3 {
+    @include icon-animation (bounce, random(10) + s)
+  }
+
+.icon4 {
+    @include icon-animation (bounce, random(10) + s)
+  }
+
+.icon5 {
+    @include icon-animation (bounce, random(10) + s)
+  }
+
+.icon6 {
+    @include icon-animation (bounce, random(10) + s )
+}
+
+.icon7 {
+    @include icon-animation (bounce, random(10) + s)
+  }
+
+.icon8 {
+    @include icon-animation (bounce, random(10) + s )
+ }
+  
+
+ 
+
+  
