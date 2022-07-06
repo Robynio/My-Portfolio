@@ -1,9 +1,11 @@
-$herobackgroundpic: "../images/coding-background.jpg";
+$bodybackgroundpic: "../images/coding-background.jpg";
 
 body{
     box-sizing: border-box;
     margin: 0 auto;
-    background-image: url($herobackgroundpic);
+    background-image: url($bodybackgroundpic);
+    background-color: rgb(255, 255, 255, 0.75);
+
     background-position: center;
     background-size: 60%;
 }
