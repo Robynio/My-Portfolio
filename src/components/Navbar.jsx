@@ -1,4 +1,6 @@
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
+
 import Logo from "../assets/images/Original on Transparent.png";
 
 function Navbar() {
@@ -6,27 +8,35 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg nav shadow rounded">
         <div className="nav-container container-fluid">
-          <a href="#home">
+          <div to="#home" className="nav-div">
             <img id="logo" src={Logo} alt="Logo" />
-          </a>
+          </div>
 
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#topnav"
             aria-controls="topnav"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="Toggle navigation "
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="topnav">
             <ul className="nav-list ml-auto">
-              <li id="nav-title-name">Home</li>
-              <li id="nav-title-name">About</li>
-              <li id="nav-title-name">Technologies</li>
-              <li id="nav-title-name">Contact</li>
+              <li id="nav-title-name">
+                <div to="#home">Home</div>
+              </li>
+              <li id="nav-title-name">
+                <div to="#about">About</div>
+              </li>
+              <li id="nav-title-name">
+                <div to="#technologies">Technologies</div>
+              </li>
+              <li id="nav-title-name">
+                <div to="contact">Contact</div>
+              </li>
             </ul>
           </div>
         </div>

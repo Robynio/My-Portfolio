@@ -10,17 +10,29 @@ $herobackgroundpic: "../images/Wavy-hero-bckgrd.jpg";
   background-size: cover;
 }
 
-
-
 .hero-container{
   height: 70vh;
-  padding-top: 100px;
-  padding-left: 4%;
+  padding: 180px 20% 0 17%;
+  margin: auto;
   font-family:monospace;
-  font-size: 5rem;
+  font-size: 5.4rem;
   font-weight:900;
   color: #fff;
   
+}
+
+.title-color{
+  background-color: rgba(153, 166, 197, 0.8);
+}
+
+.blink_me {
+  animation: blinker 1.5s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 @mixin icon-animation ($animation, $delay) {

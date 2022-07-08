@@ -5,11 +5,14 @@ function Hero() {
     <div className="container-1">
       <div className="container py-5">
         <div className="row">
-          <div className="col-md-12 ">
+          <div className="col-md-12">
             <div className="hero-container">
-              Hello, I am a <br /> Web Developer_
+              I am A{" "}
+              <span className="title-color shadow rounded">
+                Developer<span className="blink_me">_</span>
+              </span>
             </div>
-            <div className="d-flex justify-content-around py-5 ">
+            <div className="d-flex justify-content-around py-5">
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="jsTab"
