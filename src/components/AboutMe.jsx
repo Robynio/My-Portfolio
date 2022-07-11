@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="about-me">
       <div className="container overflow-hidden p-5">
         <div className="row justify-content-end gy-4">
-          <div className="d-flex m-auto col-lg-3">
+          <div className="d-flex m-auto col-md-3 col-sm-12">
             <img
               className="shadow"
               src={profilePic}
