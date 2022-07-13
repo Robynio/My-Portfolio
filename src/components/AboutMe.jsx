@@ -16,13 +16,13 @@ function AboutMe() {
           </div>
           <div className="col-lg-9">
             <div>
-              Hi, I am Robin. I live in Berlin and I love to create things with
+              "Hi, I am Robin. I live in Berlin and I love to create things with
               JavaScript, HTML, CSS. Check my full stack and projects here..{" "}
               <br />
               elit lorem dolor dolor amet lorem sit ipsum ipsum amet consectetur
               dolor elit dolor ipsum amet. ipsum amet ipsum sit consectetur amet
               consectetur sit consectetur dolor consectetur sit elit lorem dolor
-              ipsum
+              ipsum"
             </div>
           </div>
         </div>

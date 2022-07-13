@@ -4,43 +4,43 @@ function Technologies() {
   return (
     <section id="technologies" className="technologies text-center pt-5">
       {" "}
-      Technologies
+      <h1>Technologies</h1>
       <div
-        className=" container row row-cols-1 row-cols-md-3 pb-5 gx-5 gy-5"
+        className="container d-flex justify-content-around row row-cols-1 row-cols-md-3 pb-5 gx-5 gy-5"
         style={{ margin: "auto" }}
       >
-        <div className="card shadow rounded-3">
-          <i className="text-center fab fa-html5 fa-5x pt-5"></i>
+        <div className="card shadow border-0 m-5">
+          <i className="text-center fab fa-html5 fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">HTML</p>
           </div>
         </div>
-        <div className=" card shadow rounded-3">
-          <i className="text-center fab fa-css3 fa-5x pt-5"></i>
+        <div className=" card shadow border-0 m-5">
+          <i className="text-center fab fa-css3 fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">CSS</p>
           </div>
         </div>
-        <div className=" card shadow rounded-3">
-          <i className="text-center fab fa-sass fa-5x pt-5"></i>
+        <div className=" card shadow border-0 m-5">
+          <i className="text-center fab fa-sass fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">Sass</p>
           </div>
         </div>
-        <div className=" card shadow rounded-3">
-          <i className="text-center fab fa-js-square fa-5x pt-5"></i>
+        <div className=" card shadow border-0 m-5">
+          <i className="text-center fab fa-js-square fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">JavaScript</p>
           </div>
         </div>
-        <div className=" card shadow rounded-3">
-          <i className="text-center fab fa-react fa-5x pt-5"></i>
+        <div className=" card shadow border-0 m-5">
+          <i className="text-center fab fa-react fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">React</p>
           </div>
         </div>
-        <div className=" card shadow rounded-3">
-          <i className="text-center fab fa-node-js fa-5x pt-5"></i>
+        <div className=" card shadow border-0 m-5">
+          <i className="text-center fab fa-node-js fa-4x pt-5"></i>
           <div className="card-body">
             <p className="card-text text-center">Node.js</p>
           </div>
