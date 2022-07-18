@@ -2,9 +2,11 @@ import React from "react";
 
 function Technologies() {
   return (
-    <section id="technologies" className="technologies text-center pt-5">
+    <section id="technology" className="technologies text-center pt-5">
       {" "}
-      <h1>Technologies</h1>
+      <h1 style={{ color: "white", "font-size": "3.2rem" }}>
+        Technologies<span className="blink_me">_</span>
+      </h1>
       <div
         className="container d-flex justify-content-around row row-cols-1 row-cols-md-3 pb-5 gx-5 gy-5"
         style={{ margin: "auto" }}

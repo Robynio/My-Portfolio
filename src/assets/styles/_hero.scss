@@ -11,13 +11,24 @@ $herobackgroundpic: "../images/Wavy-hero-bckgrd.jpg";
 }
 
 .hero-container{
-  height: 70vh;
-  padding: 190px 20% 0 17%;
+  height: 77vh;
+  padding-top: 30vh;
   margin: auto;
   font-family:monospace;
-  font-size: 5.4rem;
+  font-size: 5rem;
   font-weight:900;
   color: #fff;
+  
+  @media(max-width: 1200px){
+    font-size: 4rem;
+  }
+  @media(max-width: 800px){
+    font-size: 3rem;
+  }
+  @media(max-width: 600px){
+    font-size: 2rem;
+ 
+}
 }
 
 .title-color{

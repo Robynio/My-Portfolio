@@ -1,8 +1,7 @@
-$backgroundPic: "../../assets/images/starSky.jpg";
 
 
 .technologies{
-        background-color: rgb(255, 253, 253, 0.95);
+        background-color: rgba(53, 54, 55, 0.8);
         
         font-size: 2rem;
           
@@ -11,12 +10,12 @@ $backgroundPic: "../../assets/images/starSky.jpg";
 .card{
     max-width: 270px;
     height: 250px;
-    background-color: #def7bf;
-    background: linear-gradient(
+    background-color: #ffffff;
+    /*background: linear-gradient(
         270deg,
-        rgb(226, 214, 228) 1%,
+        rgb(234, 126, 253) 0%,
         rgb(255, 255, 255) 100%
       
-      );
+      );*/
     //background-color: rgb(221, 247, 249);
 }

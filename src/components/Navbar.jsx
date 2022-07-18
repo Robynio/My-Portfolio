@@ -1,5 +1,4 @@
 import React from "react";
-import { NavHashLink } from "react-router-hash-link";
 
 import Logo from "../assets/images/Original on Transparent.png";
 
@@ -15,27 +14,35 @@ function Navbar() {
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#topnav"
-            aria-controls="topnav"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
             aria-expanded="false"
-            aria-label="Toggle navigation "
+            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="topnav">
-            <ul className="nav-list ml-auto">
+          <div className="collapse navbar-collapse" id="navbarScroll">
+            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li id="nav-title-name">
-                <div to="#home">Home</div>
+                <a id="nav-link" href="#home">
+                  Home
+                </a>
               </li>
               <li id="nav-title-name">
-                <div to="#about">About</div>
+                <a id="nav-link" href="#about">
+                  About
+                </a>
               </li>
               <li id="nav-title-name">
-                <div to="#technologies">Technologies</div>
+                <a id="nav-link" href="#technology">
+                  Technologies
+                </a>
               </li>
               <li id="nav-title-name">
-                <div to="contact">Contact</div>
+                <a id="nav-link" href="#contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

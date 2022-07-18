@@ -3,10 +3,10 @@ import React from "react";
 function Hero() {
   return (
     <div className="container-1">
-      <div className="container py-5">
+      <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="hero-container">
+            <div className="hero-container text-center">
               I am A{" "}
               <span className="title-color shadow rounded">
                 Developer<span className="blink_me">_</span>
