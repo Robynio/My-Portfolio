@@ -6,6 +6,8 @@
     display: flex;
    top: 0;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     max-height: 72px;
     justify-content: space-between;
     padding: 0.7rem;
@@ -35,28 +37,32 @@
   
   .nav-list {
     display: flex;
+    color: #fff;
     margin-left: auto !important;
     list-style: none;
-    //width: 80%;
-    display: flex;
-    font-size: 2rem;
+    
     justify-content: flex-end;
+    a:hover{
+      color: #fff;
+      text-decoration-line:underline ;
+    }
   }
 
   #logo{
     width: 50px;
   }
-  
-  #nav-link {
-    color: #fff;
+
+
+  .custom-nav-link {
+    
+    color:#fff;
     font-family: 'Caveat', cursive;
     font-weight: 600;
     padding: 9px 9px;
     text-decoration: none;
-    scroll-behavior: smooth;
-    @media(max-width: 576px){
-      font-size: 1.2rem;
-    }
+    font-size: 1.5rem;
+    
+    
   }
 
  
@@ -72,8 +78,30 @@
 }
   
   
-  
-  
+.navbar-offcanvas {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items:center;
+}
+
+.navbar-toggler-icon{
+  width: 47px;
+  color: rgb(251, 251, 251);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: 1px;
+    box-shadow:#fff;
+}
+
+.navbar-collapse{
+ flex-grow: 0;
+ flex-basis: 100%;
+ width: 100%;
+ flex-direction: column;
+}
   
   
   

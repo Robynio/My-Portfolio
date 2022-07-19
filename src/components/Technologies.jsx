@@ -12,37 +12,55 @@ function Technologies() {
         style={{ margin: "auto" }}
       >
         <div className="card shadow border-0 m-5">
-          <i className="text-center fab fa-html5 fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-html5 fa-4x pt-5"
+            style={{ color: "orangered" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">HTML</p>
           </div>
         </div>
         <div className=" card shadow border-0 m-5">
-          <i className="text-center fab fa-css3 fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-css3 fa-4x pt-5"
+            style={{ color: "mediumblue" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">CSS</p>
           </div>
         </div>
         <div className=" card shadow border-0 m-5">
-          <i className="text-center fab fa-sass fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-sass fa-4x pt-5"
+            style={{ color: "plum" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">Sass</p>
           </div>
         </div>
         <div className=" card shadow border-0 m-5">
-          <i className="text-center fab fa-js-square fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-js-square fa-4x pt-5"
+            style={{ color: "gold" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">JavaScript</p>
           </div>
         </div>
         <div className=" card shadow border-0 m-5">
-          <i className="text-center fab fa-react fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-react fa-4x pt-5"
+            style={{ color: "deepskyblue" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">React</p>
           </div>
         </div>
         <div className=" card shadow border-0 m-5">
-          <i className="text-center fab fa-node-js fa-4x pt-5"></i>
+          <i
+            className="text-center fab fa-node-js fa-4x pt-5"
+            style={{ color: "yellowgreen" }}
+          ></i>
           <div className="card-body">
             <p className="card-text text-center">Node.js</p>
           </div>
