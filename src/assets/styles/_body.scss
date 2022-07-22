@@ -1,17 +1,22 @@
 $bodybackgroundpic: "../images/coding-background.jpg";
 
-html {
-    scroll-behavior:smooth;
-  }
+html:focus-within {
+  scroll-behavior:smooth !important;
+}
 
 body{
+
     box-sizing: border-box;
     margin: 0 auto;
   font-family:monospace;
-
     background-image: url($bodybackgroundpic);
     background-color: rgb(255, 255, 255, 0.75);
-
     background-position: center;
-    background-size: 60%;
+    background-size: 50%;
+}
+
+section{
+  scroll-behavior:smooth;
+
+  scroll-margin-top: 3rem;
 }

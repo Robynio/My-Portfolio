@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container-1">
+    <section className="container-1" id="home">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -82,7 +82,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
