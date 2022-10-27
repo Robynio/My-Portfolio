@@ -2,7 +2,7 @@ import React from "react";
 
 function Technologies() {
   return (
-    <section id="technology" className="technologies text-center pt-5">
+    <section className="technologies text-center pt-5" id="technology">
       {" "}
       <h1 style={{ color: "white", "font-size": "3.2rem" }}>
         Technologies<span className="blink_me">_</span>

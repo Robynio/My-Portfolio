@@ -1,8 +1,11 @@
-$backgroundPic: "../../assets/images/starSky.jpg";
+$aboutMebackgroundPic: "../../assets/images/white_wavy_square_bckgrd.jpg";
 
 
 .about-me{
-        background-color: rgba(255, 255, 255);
+        background:url($aboutMebackgroundPic);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
         
             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
             font-size: 2rem;
