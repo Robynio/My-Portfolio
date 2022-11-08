@@ -3,7 +3,7 @@ import profilePic from "../assets/images/profile_pic.jpg";
 
 function AboutMe() {
   return (
-    <section className="about-me" id="about">
+    <section className="about-me container-1" id="about">
       <div className="container overflow-hidden pt-5 pb-5">
         <div className="row justify-content-end gy-4">
           <div className="col-xl-4 col-lg-12 col-sm-12 m-auto text-center">

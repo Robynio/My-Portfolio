@@ -40,6 +40,11 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item nav-title-name nav-item">
+              <a className="nav-link custom-nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item nav-title-name nav-item">
               <a className="nav-link custom-nav-link" href="#technology">
                 Technologies
               </a>
