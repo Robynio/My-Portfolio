@@ -5,12 +5,13 @@ import shoeShopPic from "../assets/images/shoeShop_pic.png";
 
 function Projects() {
   return (
-    <section className="projects position-relative">
+    <section className="projects position-relative container-1" id="projects">
       Projects
       <div
         id="carouselExampleCaptions"
         className="carousel slide position-absolute top-50 start-50 translate-middle"
         data-bs-ride="carousel"
+        style={{ border: "7px solid white" }}
       >
         <div className="carousel-indicators">
           <button
@@ -33,6 +34,12 @@ function Projects() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -40,42 +47,28 @@ function Projects() {
               src={dolphinBankPic}
               className="d-block w-100"
               alt="dolphinBankPic"
-              //style={{ width: "1.5rem" }}
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
           </div>
           <div className="carousel-item">
             <img
               src={shoeShopPic}
               className="d-block w-100"
               alt="shoeShopPic"
-              style={{ width: "1.5rem" }}
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
           </div>
           <div className="carousel-item">
             <img
               src={healifyAppPic}
               className="d-block w-100"
               alt="healifyAppPic"
-              style={{ width: "" }}
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              src={healifyAppPic}
+              className="d-block w-100"
+              alt="healifyAppPic"
+            />
           </div>
         </div>
         <button
