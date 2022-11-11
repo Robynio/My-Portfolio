@@ -1,9 +1,96 @@
-.projects{
-    background-color: rgba(246, 241, 241, 0.975);
-    min-height: 600px;
+
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    @media(max-width: 1385px){
+        flex-direction: column;
+        align-items: center;        
+      }  
 }
 
-/*.carousel-item{
-    max-height: 600px;
-    max-width: 600px;
-}*/
+/* The device with borders */
+.tablet {
+    position: relative;
+    width: 800px;
+    height: 412px;
+    
+    border: 16px white solid;
+    border-left: 60px white solid;
+  border-right: 60px white solid;
+    border-radius: 36px;
+    @media(max-width: 1004px){
+        
+        
+        width: 360px;
+        height: 640px;
+        border: 16px #ffffff solid;
+        border-top-width: 60px;
+        border-bottom-width: 60px;
+        border-radius: 36px;    
+      }   
+  }
+  
+  /* The horizontal line on the top of the device */
+  .tablet::before {
+    content: '';
+    
+  display: inline;
+  width: 5px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  background: #000000;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  @media(max-width: 1004px){
+    content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  background: #000000;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;   
+  }   
+  }
+  
+  /* The circle on the bottom of the device */
+  .tablet::after {
+    content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -65px;
+  top: 50%;
+  background: #ffffff;
+  border: 1px solid #424141;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  @media(max-width: 1004px){
+    content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  }   
+  }
+  
+  /* The screen (or content) of the device */
+  .tablet .content {
+    width: 768px;
+    height: 1024px;
+    background: white;
+    margin: -1px;
+  }

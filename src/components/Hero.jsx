@@ -7,7 +7,7 @@ function Hero() {
         <div className="row">
           <div className="col-md-12">
             <div className="hero-container text-center">
-              I am A{" "}
+              I am a*{" "}
               <span className="title-color shadow rounded">
                 Developer<span className="blink_me">_</span>
               </span>
