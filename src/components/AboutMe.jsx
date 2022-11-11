@@ -15,17 +15,30 @@ function AboutMe() {
             />
           </div>
           <div className="col-xl-8 col-lg-12 col-md-12 col-sm-12">
-            <div>
+            <div id="mytext">
+              <span style={{ fontSize: "60px", lineHeight: "normal" }}>*</span>{" "}
               "Hi, I am Robin. I live in Berlin and I am passionate about
               developing ideas and bring them to code with JavaScript, HTML,
               CSS. <br />I am able to make things look good in the frontend and
-              love to structure and create the backend of things also. 🤖
+              love to structure and create the backend of things also.
               Technologies I work with: NODE.js, Express, Mongo-DB, Passport.js,
               REACT, Bootstrap... to be expanded soon! I love to learn and
-              improve my skills on a regular basis. 🏀 When I am not coding I
-              cook, I hoop or try not to fall off a horse! I am open to
-              collaborate on coding projects, job offers and sharing experiences
-              in tech! Feel free to contact me here..
+              improve my skills on a regular basis. When I am not coding I cook,
+              I hoop or try not to fall off a horse! I am open to collaborate on
+              coding projects, job offers and sharing experiences in tech!
+              <br />
+              Contact me here..
+              <a
+                href="#contacts"
+                style={{
+                  textDecoration: "none",
+                  color: "gray",
+                  fontSize: "50px",
+                }}
+              >
+                &#x2193;
+              </a>
+              "
             </div>
           </div>
         </div>
