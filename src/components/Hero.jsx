@@ -2,13 +2,13 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="container-1" id="home">
+    <section className="container-1 " id="home">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="hero-container text-center">
               I am a*{" "}
-              <span className="title-color shadow rounded">
+              <span>
                 Developer<span className="blink_me">_</span>
               </span>
             </div>

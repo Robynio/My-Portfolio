@@ -3,7 +3,7 @@ import React from "react";
 function Technologies() {
   return (
     <section
-      className="container-1 text-center pt-5"
+      className="technologies text-center pt-5"
       id="technology"
       style={{ fontSize: "2rem" }}
     >
