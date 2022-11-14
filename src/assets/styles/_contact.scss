@@ -1,21 +1,38 @@
 .contact{
-min-height: 100px;  
+min-height: 160px;  
 font-size: 2rem;
 
-background: linear-gradient(
-  200deg,
-  rgb(1, 21, 63) 0%,
-  rgb(190, 40, 224) 37%,
-  rgb(255, 217, 20) 80%
-);
+background-color: white;
  
 }
 
-#icon-color{
-  color: white;
+
+
+
+#icon-color-1{
+color: rgb(50, 49, 49)           
 }
 
-#icon-color:hover{
-color: rgb(218, 215, 212);
+#icon-color-1:hover{
+  color: rgb(147, 160, 175);
+}
 
+
+
+
+
+.blink-2 {
+	animation: blink-2 2s 15 both;
+}
+
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
