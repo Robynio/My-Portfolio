@@ -16,8 +16,11 @@
   color: white;
   padding-top: 20vh;
   @media(max-width: 1385px){
+    margin-bottom: 50px;
     padding-top: 0;
   }  
+  
+
 }
 
 /* The device with borders */
@@ -25,14 +28,14 @@
     position: relative;
     width: 800px;
     height: 412px;
-    
+    margin-left: 60px;
     border: 16px white solid;
     border-left: 60px white solid;
   border-right: 60px white solid;
     border-radius: 36px;
     @media(max-width: 1004px){
         
-        
+        margin: 0 auto;
         width: 357px;
         height: 640px;
         border: 16px #ffffff solid;

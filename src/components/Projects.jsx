@@ -2,16 +2,13 @@ import React from "react";
 
 function Projects() {
   return (
-    <section>
+    <section id="projects">
       <div className="projects-container">
-        <div className="projects">Projects</div>
+        <div className="projects">
+          Projects<span className="blink_me">_</span>
+        </div>
 
-        <div
-          className="shadow rounded-sm tablet content"
-          style={{
-            marginLeft: "50px",
-          }}
-        >
+        <div className="shadow rounded-sm tablet content">
           <div
             id="carouselExampleCaptions"
             className="carousel slide position-absolute"
