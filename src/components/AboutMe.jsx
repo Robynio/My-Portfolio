@@ -26,7 +26,7 @@ function AboutMe() {
               a regular basis. I am open to freelance work, collaborate on
               coding projects, job offers and sharing experiences in tech!
               <br />
-              Contact me here..
+              Contact me here <span style={{ fontSize: "40px" }}>&rarr;</span>
               <a
                 href="#contacts"
                 style={{
@@ -36,8 +36,8 @@ function AboutMe() {
                 <i
                   className="fa-regular fa-paper-plane"
                   style={{
-                    fontSize: "1.8rem",
-                    color: "white",
+                    fontSize: "2rem",
+                    color: "yellow",
                     marginLeft: "5px",
                   }}
                 ></i>
