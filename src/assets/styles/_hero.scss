@@ -2,16 +2,12 @@
 $herobackgroundpic: "../images/Wavy-hero-bckgrd.jpg";
 
 .container-1{
-    width: 100%;
-  
-
-    background-image: url($herobackgroundpic);
+  width: 100%;
+  background-image: url($herobackgroundpic);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(147, 160, 175, 0.7);
-
-  //background-attachment: fixed;
 }
 
 .hero-container{
@@ -31,7 +27,6 @@ $herobackgroundpic: "../images/Wavy-hero-bckgrd.jpg";
   }
   @media(max-width: 600px){
     font-size: 2.5rem;
- 
 }
 }
 

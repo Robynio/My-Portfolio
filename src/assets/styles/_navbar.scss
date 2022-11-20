@@ -27,10 +27,10 @@
   }
 
   .nav-container{
-    display: flex;
     max-width: 80vw;
-    //margin-right: auto;
-    //margin-left: auto;
+    @media(max-width: 783px){
+      max-width: 85vw;
+    }
   }
 
   .nav-list{
@@ -86,7 +86,6 @@
 }
 
 .navbar-collapse{
- width: 100%;
  justify-content: flex-end;
  align-items: center;
  line-height: 1;
@@ -94,15 +93,14 @@
   
   {
   position: static !important;
+      width: 100% !important;
+      margin-left: -65px;
+      margin-right: -70px;
       margin-top: 9.5px;
-      
-    background-color: #fff;
+      background-color: #ffffff;
   }
 }
 
-.collapse{
-  width: 100% !important;
-}
 
   
   
