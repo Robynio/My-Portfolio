@@ -5,7 +5,7 @@ import Logo from "../assets/images/Original on Transparent.png";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md fixed-top nav shadow rounded">
-      <div className="nav-container container">
+      <div className="nav-container container-fluid">
         <a className="navbar-brand" href="#home">
           <img id="logo" src={Logo} alt="Logo" />
         </a>
@@ -20,10 +20,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse nav-list"
-          id="navbarTogglerDemo01"
-        >
+        <div className="navbar-collapse nav-list" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-title-name nav-item">
               <a
