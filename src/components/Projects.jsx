@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section id="projects">
       <div className="projects-container">
-        <div className="projects">
+        <div className="projects" id="secTitle">
           Projects<span className="blink_me">_</span>
         </div>
 
@@ -42,43 +42,7 @@ function Projects() {
               ></button>
             </div>
             <div className="carousel-inner">
-              {/*<div className="carousel-item active">
-                <img
-                  src={dolphinBankPic}
-                  className="d-block w-100"
-                  alt="dolphinBankPic"
-                />
-              </div>*/}
               <div className="carousel-item active">
-                {/*<picture style={{ position: "absolute" }}>
-                  <source
-                    media="(max-width:1004px)"
-                    srcset="../assets/images/shoe-shop-mobile.jpg"
-                    style={{ maxWidth: "400px", maxHeight: "550px" }}
-                  />
-                  <source
-                    className="car-picture-sizing"
-                    media="(min-width:1005px)"
-                    srcset={shoeShopPic}
-                    style={{ maxWidth: "800px", maxHeight: "430px" }}
-                  />
-
-                  <img
-                    src="your_picture_for_default.jpg"
-                    style={{ objectPosition: "50%, 50%" }}
-                    alt="-description"
-                  />
-                </picture>*/}
-                {/*<img
-                  className="d-block w-100 mobile-screen"
-                  src={shoeShopMobilePic}
-                  alt="shoeShopMobilePic"
-                />
-                <img
-                  className="d-block w-100 wide-screen"
-                  src={shoeShopPic}
-                  alt="shoeShopPic"
-                />*/}
                 <div className="shoeShopImage"></div>
               </div>
               <div className="carousel-item">
@@ -87,18 +51,6 @@ function Projects() {
               <div className="carousel-item">
                 <div className="dolphinBankImage"></div>
               </div>
-              {/* <img
-                  src={healifyAppPic}
-                  className="d-block w-100"
-                  alt="healifyAppPic"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src={healifyAppPic}
-                  className="d-block w-100"
-                  alt="healifyAppPic"
-                />*/}
             </div>
           </div>
           <button

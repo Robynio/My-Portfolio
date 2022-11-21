@@ -16,6 +16,14 @@ body{
     
 }
 
+#secTitle{
+  color: white;
+  font-size: 3.2rem;
+@media(max-width: 500px){
+  font-size: 3rem;
+}
+}
+
 section{
   scroll-behavior:smooth;
 

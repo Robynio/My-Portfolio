@@ -1,22 +1,13 @@
 
 
-.technologies{
-        
-        
-        margin-top: 40px;
-        font-size: 2rem;
-          
-}
 
 .card{
     width: 270px;
     height: 250px;
     background-color: rgb(246, 246, 246);
-    /*background: linear-gradient(
-        270deg,
-        rgb(234, 126, 253) 0%,
-        rgb(255, 255, 255) 100%
-      
-      );*/
-    //background-color: rgb(221, 247, 249);
+    @media(max-width: 500px){
+      font-size: 90%;
+  }
+
+   
 }
