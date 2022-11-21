@@ -8,7 +8,7 @@ function Technologies() {
       style={{ fontSize: "2rem" }}
     >
       {" "}
-      <h1 style={{ color: "white", "font-size": "3.2rem" }}>
+      <h1 id="secTitle">
         Technologies<span className="blink_me">_</span>
       </h1>
       <div
