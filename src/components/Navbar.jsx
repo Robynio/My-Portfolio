@@ -10,17 +10,20 @@ function Navbar() {
           <img id="logo" src={Logo} alt="Logo" />
         </a>
         <button
-          className="navbar-toggler navbar-dark collapsed"
+          className="navbar-toggler navbar-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse nav-list" id="navbarTogglerDemo01">
+        <div
+          className="collapse navbar-collapse collapsing-NB nav-list"
+          id="navbarTogglerDemo01"
+        >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-title-name nav-item">
               <a

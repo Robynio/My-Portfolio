@@ -16,7 +16,7 @@ function AboutMe() {
           </div>
           <div className="col-xl-8 col-lg-12 col-md-12 col-sm-12">
             <div id="mytext">
-              <span style={{ fontSize: "60px", lineHeight: "normal" }}>*</span>{" "}
+              <span style={{ fontSize: "40px", lineHeight: "normal" }}>*</span>{" "}
               Hi, I am Robin! <br />
               I am passionate about creating fully responsive, scalable websites
               and applications full stack.
@@ -26,7 +26,7 @@ function AboutMe() {
               a regular basis. I am open to freelance work, collaborate on
               coding projects, job offers and sharing experiences in tech!
               <br />
-              Contact me here <span style={{ fontSize: "40px" }}>&rarr;</span>
+              Contact me here{" "}
               <a
                 href="#contacts"
                 style={{
@@ -38,7 +38,6 @@ function AboutMe() {
                   style={{
                     fontSize: "2rem",
                     color: "yellow",
-                    marginLeft: "5px",
                   }}
                 ></i>
               </a>
