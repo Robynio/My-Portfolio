@@ -19,12 +19,13 @@ function AboutMe() {
               <span style={{ fontSize: "40px", lineHeight: "normal" }}>*</span>{" "}
               Hi, I am Robin! <br />
               I am passionate about creating fully responsive, scalable websites
-              and applications full stack.
+              and applications&shy; full stack.
               <br />
-              See the soon to be expanded list of technologies I work with and a
-              glimpse of some of my projects below! <br />I improve my skills on
-              a regular basis. I am open to freelance work, collaborate on
-              coding projects, job offers and sharing experiences in tech!
+              See the soon to be expanded list of technologies&shy; I work with
+              and a glimpse of some of my projects below! <br />I improve my
+              skills on a regular basis. I am open to freelance&shy; work,
+              collaborate on coding projects&shy;, job offers and sharing
+              experiences&shy; in tech!
               <br />
               Contact me here{" "}
               <a
