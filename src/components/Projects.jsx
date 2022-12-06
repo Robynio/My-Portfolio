@@ -43,10 +43,10 @@ function Projects() {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="shoeShopImage"></div>
+                <div className="healifyAppImage"></div>
               </div>
               <div className="carousel-item">
-                <div className="healifyAppImage"></div>
+                <div className="shoeShopImage"></div>
               </div>
               <div className="carousel-item">
                 <div className="dolphinBankImage"></div>
