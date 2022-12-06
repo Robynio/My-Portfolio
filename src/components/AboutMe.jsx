@@ -25,9 +25,7 @@ function AboutMe() {
               and a glimpse of some of my projects below! <br />I improve my
               skills on a regular basis. I am open to freelance&shy; work,
               collaborate on coding projects&shy;, job offers and sharing
-              experiences&shy; in tech!
-              <br />
-              Contact me here{" "}
+              experiences&shy; in tech! Contact me here{" "}
               <a
                 href="#contacts"
                 style={{
