@@ -5,10 +5,10 @@ function Contact() {
     <section
       className="contact text-center pt-5"
       id="contacts"
-      style={{ marginTop: "60px" }}
+      style={{ marginTop: "90px" }}
     >
       <div>
-        <a href="mailto:robin_skladny@gmx.de" className="icon">
+        <a href="mailto:robin.skladny40@gmail.com" className="icon">
           <i
             className="blink-2 fa-solid fa-square-envelope fa-2x"
             id="icon-color-1"
