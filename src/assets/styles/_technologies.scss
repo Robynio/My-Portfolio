@@ -1,6 +1,4 @@
 
-
-
 .card{
     width: 270px;
     height: 250px;
@@ -8,6 +6,12 @@
     @media(max-width: 1004px){
       font-size: 90%;
   }
+}
 
-   
+#technology{
+  background-color: rgb(147, 160, 175);
+  padding-bottom: 20px;
+  border-radius: 0 0 50% 50%/ 0 0 50px 50px;
+  box-shadow: 0 7px 10px 0 rgba(79, 79, 82, 0.7);
+margin-bottom: 15px;
 }

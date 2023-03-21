@@ -2,11 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section
-      className="contact text-center pt-5"
-      id="contacts"
-      style={{ marginTop: "90px" }}
-    >
+    <section className="contact text-center pt-5" id="contacts">
       <div>
         <a href="mailto:robin.skladny40@gmail.com" className="icon">
           <i
