@@ -2,7 +2,8 @@ import React from "react";
 import Logo from "../assets/images/Original on Transparent.png";
 
 function Footer() {
-  function impressum(e) {
+  {
+    /* function impressum(e) {
     e.preventDefault();
     const impressDiv = document.getElementById("impress-text");
     if (impressDiv.style.display !== "none") {
@@ -10,6 +11,7 @@ function Footer() {
     } else {
       return (impressDiv.style.display = "block");
     }
+  }*/
   }
   return (
     <>
