@@ -22,7 +22,7 @@ function Footer() {
             alt="logoPic"
           ></img>
         </span>
-        <span id="impressum">
+        {/*<span id="impressum">
           {" "}
           <a
             style={{ textDecoration: "none", color: "white" }}
@@ -45,7 +45,7 @@ function Footer() {
             <br />
             Mobile: +49 156 78 193 751 <br />
           </div>
-        </span>
+        </span>*/}
       </div>
     </>
   );
